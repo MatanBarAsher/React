@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q2</title>
+    <link rel="stylesheet" href="./Q2style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="input_box">
+        <label for="inpName">Name:</label>
+        <input type="text" id="inpName" />
+      </div>
+      <div class="input_box">
+        <label for="inpColor">Color:</label>
+        <input type="text" id="inpColor" />
+      </div>
+      <div class="input_box">
+        <label for="inpAge">Age:</label>
+        <input type="number" id="inpAge" min="1" max="120" />
+      </div>
+      <div class="input_box">
+        <label for="inpWeight">Weight: </label>
+        <input type="number" id="inpWeight" min="1" max="200" step="0.1" />
+      </div>
+      <div class="input_box">
+        <label for="inpImage">Image (URL):</label>
+        <input type="url" id="inpImage" name="myImage" />
+      </div>
+      <button id="btnCreate">Create a duck!</button>
+    </form>
+    <button id="btnShow">Show</button>
+    <button id="btnQuack">Quack</button>
+    <div id="display_params"></div>
+    <img src="" alt="" />
+
+    <script src="./Q2js.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.input_box {
+  margin: 2%;
+  width: 20%;
+}
+
+input {
+  width: 200px;
+}
+
+#btnShow,
+#btnQuack {
+  display: none;
+}
+
+button {
+  margin: 2%;
+}
+
+body > * {
+  width: 50%;
+}
