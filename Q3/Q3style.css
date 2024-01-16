@@ -1,0 +1,19 @@
+.input_box {
+  margin: 2%;
+}
+button {
+  margin: 2%;
+}
+input {
+  width: 200px;
+}
+#clock_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clock_card {
+  width: 15%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+}

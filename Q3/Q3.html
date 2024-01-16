@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q3</title>
+    <link rel="stylesheet" href="./Q3style.css" />
+  </head>
+  <body>
+    <form id="Clock_form" action="">
+      <div class="input_box">
+        <label for="inpCountry">Country: </label>
+        <input type="text" name="" id="inpCountry" />
+      </div>
+      <div class="input_box">
+        <label for="inpHour">Hour: </label>
+        <input
+          type="number"
+          id="inpHour"
+          min="0"
+          max="23"
+          value="00"
+          onkeydown="return false"
+        />
+      </div>
+      <div class="input_box">
+        <label for="inpMinute">Minute: </label>
+        <input
+          type="number"
+          id="inpMinute"
+          min="0"
+          max="59"
+          value="00"
+          onkeydown="return false"
+        />
+      </div>
+      <div class="input_box">
+        <label for="inpSecond">Second: </label>
+        <input
+          type="number"
+          id="inpSecond"
+          min="0"
+          max="59"
+          value="00"
+          onkeydown="return false"
+        />
+      </div>
+    </form>
+    <button id="btnAdd">Add clock</button>
+    <div id="clock_container"></div>
+    <script src="./Q3js.js"></script>
+  </body>
+</html>
