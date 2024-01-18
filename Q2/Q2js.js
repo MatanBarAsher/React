@@ -8,7 +8,7 @@ class Duck {
   }
 
   show() {
-    let imgString = `<img ng-src='${this.image}'>`;
+    let imgString = `<img src='${this.image}'>`;
     let str = `Name: ${this.name}<br>Color: ${this.color}<br>Age: ${this.age}<br>Weight: ${this.weight}<br>Image:<br> ${imgString}`;
     return str;
   }
